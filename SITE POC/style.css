@@ -1,0 +1,333 @@
+body {
+  margin: 0 auto;
+  font-family: "Kumbh Sans";
+}
+
+p {
+  font-family: "Kumbh Sans";
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logoH {
+  display: flex;
+}
+
+.logoH img {
+  width: 36%;
+  margin-top: 7%;
+}
+
+.btnH {
+  display: flex;
+  margin-right: 6%;
+}
+
+.btnH p {
+  margin-right: 28%;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnH p:hover {
+  color: orange;
+  transition: 1s;
+}
+
+/* BLOC1 */
+
+.bloc1 {
+  display: flex;
+  margin-top: 8%;
+}
+
+.leftB1 {
+  margin-left: 23%;
+  margin-top: 6%;
+}
+
+.leftB1 h1 {
+  font-size: 404%;
+  color: #0f437f;
+  font-family: "Newsreader";
+  width: 90%;
+}
+
+.leftB1 p {
+  color: #677b92;
+  width: 93%;
+  font-weight: 500;
+  font-size: 117%;
+}
+
+.btnB1 {
+  display: flex;
+}
+
+.btn1B1 {
+  background-color: #002f6b;
+  padding: 3% 8%;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn1B1:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+.btn2B1 {
+  background-color: #becad7;
+  padding: 3% 9%;
+  border-radius: 30px;
+  color: #002f6b;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
+.btn2B1:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+.rightB1 {
+  width: 55%;
+  margin-right: 8%;
+}
+
+.rightB1 img {
+  width: 71%;
+  border-radius: 25px;
+}
+
+/* BLOC2 */
+.bloc2 {
+  background-color: #1e3d60;
+}
+
+.topB2 {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0% 2% 0%;
+  padding-top: 1%;
+}
+
+.topB2 h2 {
+  color: white;
+}
+
+.middB2 {
+  display: flex;
+  justify-content: center;
+}
+
+.white {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 14%;
+  margin-left: 1%;
+  padding: 2%;
+}
+
+.white h4 {
+  color: #0f437f;
+}
+
+.btnB2 {
+  background-color: #0f437f;
+  padding: 4% 6%;
+  width: 22%;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn2B2 {
+  background-color: #0f437f;
+  padding: 26% 67%;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.white p {
+  width: 79%;
+  line-height: 139%;
+}
+
+.bottB2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  color: white;
+}
+
+/* BLOC3 */
+
+.bloc3 {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 4%;
+  background-color: #f5f5f5;
+  height: 920px;
+  margin-top: 0%;
+}
+
+.leftB3 {
+  width: 25%;
+  margin: 14% 1% 0% 27%;
+}
+
+.leftB3 p {
+  color: #677b92;
+  font-size: 111%;
+}
+
+.leftB3 h1 {
+  color: #0f437f;
+  font-size: 317%;
+}
+
+.rightB3 {
+  margin-top: 3%;
+}
+
+.rightB3 img {
+  width: 26%;
+  border-radius: 13px;
+  z-index: 1;
+  display: flex;
+  position: absolute;
+}
+
+.btnB3 {
+  width: 26%;
+  background-color: #0f437f;
+  padding: 4% 10%;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btnB3:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+.btn2B3 {
+  width: 26%;
+  background-color: #becad7;
+  padding: 4% 10%;
+  color: #002f6b;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn2B3:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+.whiteB3 {
+  background-color: white;
+  width: 20%;
+  border-radius: 15px;
+  margin-left: 2%;
+  padding: 1%;
+  margin-top: 29%;
+  position: absolute;
+  z-index: 2;
+}
+
+.whiteB3 h3 {
+  color: #0c417e;
+}
+
+.whiteB3 h4 {
+  color: #1d3c60;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1e3d60;
+  margin-top: -1%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright p {
+  color: #bfcbd8;
+}
+
+.social {
+  display: flex;
+  margin-top: 1%;
+  height: 1%;
+}
+
+.social img {
+  background-color: white;
+  padding: 3%;
+  width: 35%;
+  margin-left: 2%;
+  border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .bloc1 {
+    flex-direction: column;
+  }
+  .rightB1 img {
+    margin-left: 5%;
+    width: 171%;
+  }
+  .leftB1 {
+    margin: 0;
+  }
+  .middB2 {
+    flex-direction: column;
+  }
+  .white {
+    margin-bottom: 3%;
+    width: 93%;
+  }
+  .white img {
+    width: 32%;
+  }
+  .bloc3 {
+    flex-direction: column;
+    height: 1350px;
+  }
+  .leftB3 {
+    width: 100%;
+    margin: 0;
+  }
+  .leftB3 h1 {
+    font-size: 205%;
+  }
+  .leftB3 p {
+    font-size: 90%;
+  }
+  .btnB3 {
+    width: 19%;
+  }
+  .btn2B3 {
+    width: 19%;
+  }
+  .whiteB3 {
+    width: 88%;
+    margin-left: 4%;
+    margin-top: 95%;
+  }
+  .rightB3 img {
+    width: 95%;
+    margin-left: 2%;
+  }
+}

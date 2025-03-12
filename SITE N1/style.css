@@ -1,0 +1,241 @@
+body {
+  margin: auto;
+  font-family: Helvetica;
+}
+
+.button1 button:hover {
+  border-bottom: 2px black solid;
+}
+
+.top {
+  margin: 40px;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  width: 80%;
+  margin-left: 23px;
+}
+
+.button1 {
+  display: flex;
+  font-size: 50px;
+  font-family: Helvetica;
+  margin-right: 20px;
+}
+
+.button1 button {
+  background: none;
+  border: none;
+  min-width: 81px;
+  display: inline-block;
+  border-bottom: 2px transparent solid;
+  cursor: pointer;
+  font-size: 15.6px;
+  margin-right: 54px;
+  font-family: Helvetica;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-end;
+  background: transparent;
+  border: none;
+  margin: 50px auto 0;
+  font-size: 20px;
+  outline: none;
+}
+
+.middle {
+  display: flex;
+}
+
+.back {
+  z-index: -1;
+  display: flex;
+  position: absolute;
+}
+
+.back img {
+  width: 100%;
+  opacity: 38%;
+}
+
+.LOGOAPP {
+  margin-top: 40px;
+}
+
+.bonjour button {
+  border: none;
+  background-color: #0ac4af;
+  padding-bottom: 21px;
+  padding-top: 21px;
+  padding-right: 62px;
+  padding-left: 62px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: 21px;
+}
+
+.AlexJ {
+  font-size: 540%;
+  min-width: 391px;
+  margin-bottom: 13px;
+}
+
+.Service {
+  font-size: 300%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.element1 {
+  display: flex;
+  flex-direction: column;
+  padding: 99px;
+}
+
+.img {
+  width: 4%;
+}
+
+.bonjour {
+  margin-top: 34px;
+}
+
+.hero {
+  display: flex;
+  clip-path: circle(41.1%);
+  /* flex-direction: column-reverse; */
+  justify-content: space-evenly;
+}
+
+.hero img {
+  width: 94%;
+}
+
+.bottom {
+  display: flex;
+  /* margin-left: 60px; */
+  /* margin-right: 60px; */
+  /* max-width: 70px; */
+  margin: 15% 60px 0px 60px;
+}
+
+.downtext {
+  display: flex;
+  margin-top: 80px;
+  font-size: larger;
+  flex: 1;
+}
+
+.downimg {
+  display: flex;
+  margin-left: 6px;
+  margin-right: 116px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.text p {
+  max-width: 76%;
+}
+
+.challenge {
+  display: flex;
+}
+
+.button2 {
+  display: flex;
+  max-width: 454px;
+  justify-content: space-evenly;
+  gap: 10px;
+  font-family: Helvetica;
+}
+
+.button2 button {
+  background-color: transparent;
+  border: 2px solid #0bceaf;
+  padding: 3px 1px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 70px;
+  max-width: 150px;
+  font-family: Helvetica;
+  margin-top: 33px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 31px;
+  font-family: Helvetica;
+  margin-top: 37px;
+}
+
+.element1 p {
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+.button2bis button {
+  background-color: transparent;
+  border: 2px solid #0bceaf;
+  padding: 3px 1px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 90px;
+  max-width: 150px;
+  font-family: Helvetica;
+  margin-right: 17px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.cvbtn {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: Helvetica;
+}
+
+.cvbtn button {
+  background-color: #0bceaf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.custom-button {
+  font-family: Helvetica, sans-serif;
+}
+
+.rightPart_f {
+  display: flex;
+}
+
+.downimg img {
+  width: 79%;
+}
