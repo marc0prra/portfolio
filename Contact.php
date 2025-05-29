@@ -97,23 +97,23 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             <form action="Contact.php" method="POST">
                 <div class="form-group">
-                    <label for="nom">Nom :</label>
-                    <input type="text" name="nom" id="nom" class="case" placeholder="Nom *" required>
+                    <label for="nom">Nom <b>*</b>:</label>
+                    <input type="text" name="nom" id="nom" class="case" placeholder="Nom " required>
                 </div>
 
                 <div class="form-group">
-                    <label for="prenom">Prénom :</label>
-                    <input type="text" name="prenom" id="prenom" class="case" placeholder="Prénom *" required>
+                    <label for="prenom">Prénom <b>*</b>:</label>
+                    <input type="text" name="prenom" id="prenom" class="case" placeholder="Prénom " required>
                 </div>
 
                 <div class="form-group">
-                    <label for="telephone">Téléphone :</label>
-                    <input type="tel" name="telephone" id="telephone" class="case" placeholder="+33 ... *" required>
+                    <label for="telephone">Téléphone <b>*</b>:</label>
+                    <input type="tel" name="telephone" id="telephone" class="case" placeholder="+33 ... " required>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email :</label>
-                    <input type="email" name="email" id="email" class="case" placeholder="exemple@yourmail.com *" required>
+                    <label for="email">Email <b>*</b>:</label>
+                    <input type="email" name="email" id="email" class="case" placeholder="exemple@yourmail.com " required>
                 </div>
 
                 <div class="form-group">

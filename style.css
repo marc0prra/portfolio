@@ -456,6 +456,10 @@ h2 {
   margin-bottom: 15px;
 }
 
+.form-group b {
+  color: red;
+}
+
 .form-group label {
   display: block;
   font-weight: bold;
@@ -797,6 +801,36 @@ header h2 {
   color: #fff;
 }
 
+.certifications {
+  text-align: center;
+  padding: 50px 10%;
+}
+.certifications img {
+  width: 100%;
+}
+.certification-container {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+.certification-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 284px;
+  transition: transform 0.3s ease-in-out;
+}
+.certification-card:hover {
+  transform: scale(1.05);
+}
+.certification-card h3 {
+  color: #000060;
+}
+.certification-card p {
+  color: #333;
+}
 /**  ----------------------------------- PAGE PROJET ---------------------------------------- **/
 .works h1 {
   padding: 2% 0% 2% 16%;
@@ -875,7 +909,7 @@ header h2 {
 
 .project h3 {
   text-align: center;
-  font-size: 18px;
+  font-size: 33px;
   margin-bottom: 10px;
   color: black;
 }

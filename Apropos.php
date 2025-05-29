@@ -62,7 +62,7 @@
           <strong class="interest">Intéressé par mon profil ?</strong>
           <a href="Contact.php">Contactez-moi !</a> 
           <div class="resume">
-            <strong>Voici mon CV</strong><a href="img/CV  (1).pdf" target="_blank"> cliquez ici pour le téléchcarger !</a>
+            <strong>Voici mon CV</strong><a href="img/CV .pdf" target="_blank"> cliquez ici pour le téléchcarger !</a>
           </div>
         </p>
         <div class="web">
@@ -108,6 +108,28 @@
                 </span>
             </div>
         </div>
+    </div>
+    <div class="certif">
+    <section class="certifications">
+  <h2>Certifications</h2>
+  <div class="certification-container">
+    <div class="certification-card">
+      <h3>Pix</h3>
+      <img src="img/Pix_logo.svg.png" alt="">
+      <p>Certification obtenue.</p>
+    </div>
+    <div class="certification-card">
+      <h3>OpenClassrooms</h3>
+      <img src="img/Logo_OpenClassrooms.png" alt="">
+      <p>En cours.</p>
+    </div>
+    <div class="certification-card">
+      <h3>Projet Voltaire</h3>
+      <img src="img/25781_xgGv8YtlnN3dZamc.jpg" alt="">
+      <p>En cours.</p>
+    </div>
+  </div>
+</section>
     </div>
     <button id="pause-btn">▌▌</button>
   </section>
